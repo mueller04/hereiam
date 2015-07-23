@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HereIAm", "HereIAm\HereIAm.csproj", "{79BC9E3E-FBD7-4F9E-BBED-DB89E9D5F9F8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HereIAm.Test", "HereIAm.Test\HereIAm.Test.csproj", "{28179E5B-DE64-4E65-A9D7-8867A99C2E9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HereIAm", "HereIAm\HereIAm.csproj", "{B4296125-C186-43DE-8900-93F659D2EE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HereIAm.SelfHost", "HereIAm.SelfHost\HereIAm.SelfHost.csproj", "{4700C63C-9D7C-4955-A8AF-98CB0575676E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +17,13 @@ Global
 		{28179E5B-DE64-4E65-A9D7-8867A99C2E9C}.Debug|x86.Build.0 = Debug|Any CPU
 		{28179E5B-DE64-4E65-A9D7-8867A99C2E9C}.Release|x86.ActiveCfg = Release|Any CPU
 		{28179E5B-DE64-4E65-A9D7-8867A99C2E9C}.Release|x86.Build.0 = Release|Any CPU
-		{79BC9E3E-FBD7-4F9E-BBED-DB89E9D5F9F8}.Debug|x86.ActiveCfg = Debug|x86
-		{79BC9E3E-FBD7-4F9E-BBED-DB89E9D5F9F8}.Debug|x86.Build.0 = Debug|x86
-		{79BC9E3E-FBD7-4F9E-BBED-DB89E9D5F9F8}.Release|x86.ActiveCfg = Release|x86
-		{79BC9E3E-FBD7-4F9E-BBED-DB89E9D5F9F8}.Release|x86.Build.0 = Release|x86
+		{4700C63C-9D7C-4955-A8AF-98CB0575676E}.Debug|x86.ActiveCfg = Debug|x86
+		{4700C63C-9D7C-4955-A8AF-98CB0575676E}.Debug|x86.Build.0 = Debug|x86
+		{4700C63C-9D7C-4955-A8AF-98CB0575676E}.Release|x86.ActiveCfg = Release|x86
+		{4700C63C-9D7C-4955-A8AF-98CB0575676E}.Release|x86.Build.0 = Release|x86
+		{B4296125-C186-43DE-8900-93F659D2EE03}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B4296125-C186-43DE-8900-93F659D2EE03}.Debug|x86.Build.0 = Debug|Any CPU
+		{B4296125-C186-43DE-8900-93F659D2EE03}.Release|x86.ActiveCfg = Release|Any CPU
+		{B4296125-C186-43DE-8900-93F659D2EE03}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
